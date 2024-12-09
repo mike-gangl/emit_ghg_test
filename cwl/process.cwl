@@ -14,6 +14,8 @@ baseCommand:
 - process_output/output_nb.ipynb
 - -f
 - /tmp/inputs.json
+- -k
+- python3
 class: CommandLineTool
 cwlVersion: v1.2
 inputs:
