@@ -34,7 +34,7 @@ outputs:
     type: File
 requirements:
   DockerRequirement:
-    dockerPull: 463470953872.dkr.ecr.us-west-2.amazonaws.com/emit/ghg_test:9dea37f2
+    dockerPull: 463470953872.dkr.ecr.us-west-2.amazonaws.com/emit/ghg_test:0f90e576
   InitialWorkDirRequirement:
     listing:
     - entry: $(inputs)
