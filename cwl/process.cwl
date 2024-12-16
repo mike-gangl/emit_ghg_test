@@ -16,6 +16,7 @@ baseCommand:
 - /tmp/inputs.json
 - -k
 - python3
+- --log-output
 class: CommandLineTool
 cwlVersion: v1.2
 inputs:
@@ -48,4 +49,3 @@ requirements:
   NetworkAccess:
     networkAccess: true
   ShellCommandRequirement: {}
-stdout: stdout.txt
